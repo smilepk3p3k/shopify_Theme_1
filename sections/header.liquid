@@ -342,7 +342,7 @@
               alt="{{ section.settings.logo.alt | default: shop.name | escape }}"
             >
           {%- else -%}
-            /* <span class="h2">{{ shop.name }}123</span> */
+            {% # <span class="h2">{{ shop.name }}123</span> %}
             <span class="h2">{{ shop.name }}123</span>
           {%- endif -%}
         </a>
