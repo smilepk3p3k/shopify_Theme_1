@@ -65,6 +65,11 @@
       padding-top: 0.5rem;
     }
   }
+
+  .highlight {
+  color: blue;
+}
+  
 </style>
 
 <script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
@@ -344,9 +349,7 @@
           {%- else -%}
             {% # <span class="h2">{{ shop.name }}123</span> %}
 
-.highlight {
-  color: blue;
-}
+
           
             <span class="highlight">{{ shop.name }}123</span>
           {%- endif -%}
